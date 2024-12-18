@@ -22,11 +22,6 @@ This description consists of three sections: [Milestone task breakdown](#milesto
 
 ---
 
-## Before You Start
-
-1. Familiarize yourself with [what you're given from input](#what-youre-given-from-input) which is a brief introduction of the input (this section is different than the [input specifications section](#input) which is in thorough detail).
-2. Familiarize yourself with the [multi-file structure of this assignment](#multi-file-structure).
-3. Consider creating a [Makefile](#makefile) for a smooth workflow.
 
 ## Milestone 1 
 **Milestone 1 will always be compiled using the preprocessor macro `MS1`**
