@@ -5,47 +5,6 @@ Having established the theoretical foundations for the gameplay of your new game
 
 <img src="assets/main2.png" />
 
-## Table of Contents
-
-- [**Assignment Overview**](#overview) (**READ THIS FIRST!!**)
-
-- [**Milestone Task Breakdown**](#milestone-task-breakdown)
-    - [General Details Regarding the Milestone Format](#general-details-regarding-the-milestone-format)
-    - [Milestone 1](#milestone-1-due-sunday-nov-10-at-2359)
-    - [Milestone 2](#milestone-2-due-sunday-dec-1-at-2359)
-    - [Final Submission](#final-submission-due-sunday-dec-8-at-2359)
-
-- [**Implementation and Theory**](#implementation-and-theory)
-    - [What you've given from input](#what-youre-given-from-input)
-    - [Multi-File Structuve](#multi-file-structure)
-    - [Makefile](#makefile)
-    - [Vectors in 3 Dimensions](#vectors-in-3-dimensions)
-    - [Rays](#rays)
-    - [The Camera and Viewport](#the-camera-and-viewport)
-    - [Representing RGB Colors Using 3D Vectors](#representing-rgb-colors-using-3d-vectors)
-    - [Light and Background Color](#light-and-background-color)
-    - [Spheres and the World](#spheres-and-the-world)
-    - [Checking for Sphere Intersection](#checking-for-sphere-intersection)
-    - [Conversion Between HEX and RGB Color Formats](#conversion-between-hex-and-rgb-color-formats)
-    - [Assigning Colors](#assigning-colors)
-    - [Lighting and Calculating Color](#lighting-and-calculating-color)
-    - [Using PPM Files to Render Images](#using-ppm-files-to-render-images)
-    - [The Rendering Pipeline](#the-rendering-pipeline)
-    - [Anti-Aliasing](#anti-aliasing)
-
-- [**Input and Output**](#input-and-output-specifications-and-examples)
-    - [Input](#input)
-    - [Output](#output)
-        - [Milestone 1 Output](#milestone-1-output)
-        - [Milestone 1 Example I/O](#milestone-1-example-io)
-        - [Milestone 2 Output](#milestone-2-output)
-        - [Milestone 2 Example I/O](#milestone-2-example-io)
-        - [Final Submission Output](#final-submission-output)
-        - [Final Submission Example I/O](#final-submission-example-io)
-
-- [**Checking**](#checking)
-
-- [**Marking Scheme**](#marking-scheme)
 
 ## Overview
 
@@ -1093,65 +1052,5 @@ Output:
 
 All of these and more testcases may be found in `FS_Testcases`.
 
-# Checking
-
-For this assignment, you are provided with three check scripts, one for each milestone+final submission. This script will compare your program's outputs to the expected outputs. To pass each check script, your program's output should be an exact match to the expected output for all inputs given.
-
-For milestone 1, milestone 2, and the final submission, the check scripts are named `MS1_check.sh`, `MS2_check.sh`, and `FS_check.sh`, and each script will take into account the test cases provided in `MS1_Testcases`, `MS2_Testcases`, and `FS_Testcases` directories respectively. `MS1_check.sh` and `MS2_check.sh` will also compile using the appropriate preprocessor macro, while `FS_check.sh` will use `make` commands to compile (so **make sure you complete your Makefile before you run `FS_check.sh`**).
-
-In order to run each script, first run this command to grant it proper permissions (change `check.sh` to the appropriate check script according to the milestone/final submission you want to check):
-
-`chmod 700 check.sh`
-
-Then to run the script run the command:
-
-`./check.sh`
-
-Read the output for more details should you fail any test cases or fail compilation.
-
-# Marking Scheme
-
-**Milestone 1 (10 pts, worth 2%)**
-
-- If you pass `MS1_check.sh`:
-    - Pass `MS1_check.sh` (5 pts).
-    - Pass MS1 mark cases (5 pts).
-    
-- If you fail `MS1_check.sh`:
-    - Pass MS1 mark cases (10 pts).
-    
-- Demo if selected (Pass/Fail)
-    - Fail the demo and you will recieve 0 points for this section.
-
-**Milestone 2 (10 pts, 2%)**
-
-- If you pass `MS2_check.sh`:
-    - Pass `MS2_check.sh` (5 pts).
-    - Pass MS2 mark cases (5 pts).
-    
-- If you fail `MS2_check.sh`:
-    - Pass MS2 mark cases (10 pts).
-    
-- Demo if selected (Pass/Fail)
-    - Fail the demo and you will recieve 0 points for this section.
-
-**Memory Leaks:**
-- If your program passes a mark case but leaks memory, 50% of the points that mark case is worth will be deducted.
-
-**Final Submission (20 pts, 13%)**
-
-- If you pass `FS_check.sh`:
-    - Pass `check.sh` (10 pts).
-    - Pass FS mark cases (10 pts).
-    
-- If you fail `FS_check.sh`:
-    - Pass FS mark cases (20 pts).
-
-**Memory Leaks:** For both milestones and the final submission, if your program passes a mark case but leaks memory, 50% of the points that mark case is worth will be deducted.
-
-**After calculating your points for the final submission, your grade for the final submission will be calculated as the maximum grade between:**
-- 40% Milestone 1, 40% Milestone 2, 20% Final Submission.
-- 80% Milestone 2, 20% Final Submission.
-- 100% Final Submission.
 
 <!-- Assignment description end -->
