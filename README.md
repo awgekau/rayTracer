@@ -12,17 +12,6 @@ In this assignment, you will be creating a 3D renderer from scratch. The final v
 
 ---
 
-This description consists of three sections: [Milestone task breakdown](#milestone-task-breakdown), [implementation and theory](#implementation-and-theory), and [input/output specifications and examples](#input-and-output-specifications-and-examples). The purpose of each section is described below:
-
-1. [**Milestone Task Breakdown**](#milestone-task-breakdown): For submission timeline purposes, this assignment is broken down into two milestones (and a final submission). You should have a working part of the assignment done for each milestone. This is for you to properly test your program at different stages. The milestone section in this description is to provide you with the specifics regarding which tasks should be completed by each milestone's deadline.
-
-2. [**Implementation and Theory**](#implementation-and-theory): Here we describe the way the program functions conceptually, as well as implementation requirements. This section does not necessarily describe each task in the order that they should be implemented in (that is what the milestones section is for). We recommend to make sure you understand how the overall program functions before starting with any implementation.
-
-3. [**Input and Output Specifications and Examples**](#input-and-output-specifications-and-examples): As always, we will provide you with the specifics regarding the input format and what's expected from you in terms of output for each milestone/final submission. Finally, for each milestone/final submission, example I/O is provided as well.
-
----
-
-
 ## Milestone 1 
 **Milestone 1 will always be compiled using the preprocessor macro `MS1`**
 
