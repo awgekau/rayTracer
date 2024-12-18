@@ -22,36 +22,13 @@ This description consists of three sections: [Milestone task breakdown](#milesto
 
 ---
 
-The suggested workflow is:
-1. Find the milestone you plan to work on in the [milestone breakdown section](#milestone-task-breakdown).
-2. Find the task you plan to work on.
-3. Complete the task by referring to the implementation/theory section corresponding to the task.
-4. Do this for each task in the milestone, testing your code as you go along.
-5. Once you complete every task, you can check your progress by looking at the [I/O examples](#output), and by running [the appropriate check script](#checking).
-
-Fair warning: this assignment is long and challenging. **There is a reason you get half the semester to do it.** The milestones are there to encourage people to get started early. If you are struggling, make sure to attend lab sections and office hours to ask for help. Good luck!
-
-# Milestone Task Breakdown
-
-This section outlines what you should be working on and should complete for each milestone. For implementation details and explanations, refer to the [implementation section](#implementation-and-theory).
-
-This section is designed as follows: each milestone section below will contain what needs to be completed by the due date of that milestone. Once you know what you have to work on next, refer to the [implementation section](#implementation-and-theory) of that respective task/concept, there you will find the explanations for the concepts, as well as the implementation details.
-
-## General Details Regarding the Milestone Format
-- You will be provided with a check script for each milestone and the final submission for you to verify your progress ([more details on check](#checking)).
-- Milestone 1 and 2 are each graded out of $10$ points, and weigh $2\%$ of your final grade. The final submission is worth $13\%$ of your final grade ([more details on the marking scheme](#marking-scheme)).
-- While there are $3$ sections for this assignment, it should be **one overall program** (not one file, not three programs, one multi-file program).
-- Your program should give different output based on the milestone/final submission, this is determined using a preprocessor macro that your program will be compiled with. Your program will be tested using different input and output according to each Milestone/final submission ([more details on output](#output)).
-- Each student will have to demo at least one milestone.
-- Both Milestones have a three week period available to be completed. There is one week between the due date of Milestone 2 and the due date of the final submission.
-
 ## Before You Start
 
 1. Familiarize yourself with [what you're given from input](#what-youre-given-from-input) which is a brief introduction of the input (this section is different than the [input specifications section](#input) which is in thorough detail).
 2. Familiarize yourself with the [multi-file structure of this assignment](#multi-file-structure).
 3. Consider creating a [Makefile](#makefile) for a smooth workflow.
 
-## Milestone 1 (Due Sunday Nov. 10 at 23:59)
+## Milestone 1 
 **Milestone 1 will always be compiled using the preprocessor macro `MS1`**
 
 1. Create `assg.c` (and optionally `assg.h`). This is where the main function should be.
@@ -73,7 +50,7 @@ When reading input and storing values, **exclude any color** for Milestone 1. In
 
 See: [Milestone 1 Example I/O](#milestone-1-example-io)
 
-## Milestone 2 (Due Sunday Dec. 1 at 23:59)
+## Milestone 2 
 **Milestone 2 will always be compiled using the preprocessor macro `MS2`**
 
 1. Implement the function that checks for sphere intersection ([sphere intersection details](#checking-for-sphere-intersection)).
@@ -85,7 +62,7 @@ See: [Milestone 1 Example I/O](#milestone-1-example-io)
 
 See: [Milestone 2 Example I/O](#milestone-2-example-io)
 
-## Final submission (Due Sunday Dec. 8 at 23:59)
+## Final submission 
 **The Final Submission will always be compiled using the preprocessor macro `FS`**
 
 1. Complete `Makefile`, which should compile all three parts of the assignment with the appropriate preprocessor macros. ([Makefile details](#makefile)).
