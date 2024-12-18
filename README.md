@@ -1,7 +1,7 @@
 # Assignment - Dynamic Allocation, File I/O, Low Level Programming, Strings, qSort
 
 ## Ray Tracing
-Having established the theoretical foundations for the gameplay of your new game, your studio informs you they have failed to hire any graphics programmers. Only a minor setback, as you have now been relocated to lead the graphics division. You want to make this a truly next-gen game, so it will be entirely ray traced. Unsatisfied with every game engine and rendering tool on the market, you decide to make your own in standard C to fully customize it for your needs. 
+The code lays the groundwork for a new game with fully ray-traced visuals. To ensure maximum control and customization in the rendering process, I decided to build a custom rendering tool from scratch using standard C. This hands-on approach opens the door for integrating advanced graphical features, with the ultimate goal of delivering a visually breathtaking gaming experience.
 
 <img src="assets/main2.png" />
 
